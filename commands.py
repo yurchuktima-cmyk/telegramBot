@@ -20,8 +20,8 @@ FILMS_BOT_COMMAND = BotCommand(
 START_BOT_COMMAND = BotCommand(command='start', description="Почати розмову")
 FILM_CREATE_COMMAND = Command("create_film")
 BOT_COMMANDS = [
-    BotCommand(command="films", description="Перегляд списку фільмів"),
     BotCommand(command="start", description="Почати розмову"),
+    BotCommand(command="films", description="Перегляд списку фільмів"),
     BotCommand(command="delete_movie", description="Видалення фільму"),
     BotCommand(command="filter_movie", description="Фільтрувати фільми"),
     BotCommand(command="create_film", description="Додати новий фільм"),
